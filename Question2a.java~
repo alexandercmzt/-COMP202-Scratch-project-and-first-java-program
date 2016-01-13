@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Assignment1
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Hal: How many laws of predictions are there according to Arthur C. Clarke?" ); //display question
+    
+    Scanner sc = new Scanner(System.in); //ask for input
+    
+    String NumberOfLaws = sc.next();
+    
+    If (NumberOfLaws=1||"one")
+    {
+      System.out.println("Hal: There is indeed one law of prediction" ); //this is just for grammar purposes, so he says "is" and "law" for one
+    }
+    else System.out.println("Hal: There are indeed" + sc "laws of prediction" );
+  }
+}
